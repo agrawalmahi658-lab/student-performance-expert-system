@@ -6,8 +6,8 @@ It predicts whether a student will PASS or FAIL based on input factors like stud
 The system uses rule-based reasoning, making it easy to understand and perfect for AI fundamentals.
 ---
 
-##📌 Project Overview
-
+📌 Project Overview
+---
 This expert system evaluates a student's academic habits using logical rules.
 User enters:
 
@@ -30,8 +30,8 @@ Inference engine working
 Decision making without machine learning
 
 ---
-##🧠 Features
-
+🧠 Features
+---
 ✔ Rule-based decision system
 
 ✔ Knowledge base with multiple rules
@@ -44,8 +44,8 @@ Decision making without machine learning
 
 ✔ Easy to extend & modify rules
 
-##🛠 Technologies Used
-
+🛠 Technologies Used
+---
 SWI-Prolog
 
 Logical inference
@@ -56,13 +56,15 @@ Knowledge representation
 
 ---
 
-##📂 Project Structure
+📂 Project Structure
+---
 student-performance-expert-system/
 │── student_performance.pl     # Main expert system code
 │── README.md                  # Documentation
 
 ---
-##▶️ How to Run the Project
+▶️ How to Run the Project
+---
 1. Install SWI-Prolog
 
 Download from:
@@ -88,7 +90,8 @@ Enter previous exam marks: 68.
 Prediction: PASS
 
 ---
-##🧩 How It Works
+🧩 How It Works
+---
 1. Knowledge Base
 
 Rules define passing and failing conditions based on:
@@ -108,7 +111,8 @@ Prolog checks which rule matches your inputs.
 The system prints PASS or FAIL.
 
 ---
-##📝 Sample Rule (Inside Code)
+📝 Sample Rule (Inside Code)
+---
 performance(pass) :-
     study_hours(H), H >= 3,
     attendance(A), A >= 75,
@@ -118,7 +122,8 @@ performance(pass) :-
 Rules are easy to edit and expand.
 
 ---
-##🚀 Future Improvements
+🚀 Future Improvements
+---
 
 Add more academic parameters
 
@@ -129,7 +134,8 @@ More detailed scoring system
 Export results to file
 
 ---
-##📚 What You Learn
+📚 What You Learn
+---
 
 How expert systems work
 
@@ -140,8 +146,8 @@ Prolog fundamentals
 How AI decision-making happens without ML
 
 ---
-##🙌 Conclusion
-
+🙌 Conclusion
+---
 This project is simple, clear, and demonstrates fundamental AI concepts beautifully.
 It is perfect for academic submission and showcases real understanding of expert systems & Prolog.
 
